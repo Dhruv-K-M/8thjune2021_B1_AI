@@ -4,9 +4,9 @@ def check_pangram(arg):
 
   return False
 
-user_str = input("Enter a string to check for pangram : ")
+user_str = input("Enter a string ")
 
 if(check_pangram(user_str)):
-  print("It is a pangram string")
+  print("Pangram string")
 else:
   print("Not a pangram string")
