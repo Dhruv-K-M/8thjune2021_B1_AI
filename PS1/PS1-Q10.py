@@ -8,7 +8,5 @@ if max<d['Marks'][2]:
 if max<d['Marks'][3]:
     max=d['Marks'][3] 
 print(max)
-a=max.denominator
+a=d['Marks'].index(max)
 print(d['Student'][a])
-
-
